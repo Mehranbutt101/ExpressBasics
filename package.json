@@ -1,15 +1,16 @@
 {
-  "name": "nodewebserver",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Muhammad Mehran",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "hbs": "^4.0.4"
-  }
+    "name": "nodewebserver",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha **/*.test.js"
+    },
+    "author": "Muhammad Mehran",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "hbs": "^4.0.4",
+        "mocha": "^6.1.4"
+    }
 }
